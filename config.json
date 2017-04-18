@@ -1,11 +1,11 @@
 {
     "mode": "all",
-    "autoStart": false,
+    "autoStart": true,
     "refreshRate": 100,
     "elements":
     [{
         "name": "space",
-        "enabled": true,
+        "enabled": false,
         "pattern": "\\s",
         "style": {
             "borderWidth": "1px",
@@ -25,21 +25,21 @@
         "enabled": true,
         "pattern": "\\t",
         "style": {
-            "borderWidth": "1px",
-            "borderRadius": "2px",
+            "borderWidth": "0px",
+            "borderRadius": "0px",
             "borderStyle": "solid",
             "light": {
-                "backgroundColor": "rgba(170, 53, 53, 0.3)",
-                "borderColor": "rgba(170, 53, 53, 0.4)"
+                "backgroundColor": "rgb(255, 193, 124)",
+                "borderColor": "rgb(255, 193, 124)"
             },
             "dark": {
-                "backgroundColor": "rgba(223, 97, 97, 0.3)",
-                "borderColor": "rgba(223, 97, 97, 0.4)"
+                "backgroundColor": "rgb(106, 75, 53)",
+                "borderColor": "rgb(106, 75, 53)"
             }
         }
     },{
         "name": "newline",
-        "enabled": true,
+        "enabled": false,
         "pattern": "\\n",
         "style": {
             "borderWidth": "1px",
@@ -57,16 +57,33 @@
         "enabled": "unlessCursorAtEndOfPattern",
         "pattern": "[^\\S\\r\\n]+$",
         "style": {
-            "borderWidth": "1px",
-            "borderRadius": "2px",
+            "borderWidth": "0px",
+            "borderRadius": "0px",
             "borderStyle": "solid",
             "light": {
-                "backgroundColor": "rgba(58, 70, 101, 0.3)",
-                "borderColor": "rgba(58, 70, 101, 0.4)"
+                "backgroundColor": "rgb(255, 168, 168)",
+                "borderColor": "rgb(255, 168, 168)"
             },
             "dark": {
-                "backgroundColor": "rgba(117, 141, 203, 0.3)",
-                "borderColor": "rgba(117, 141, 203, 0.4)"
+                "backgroundColor": "rgb(101, 59, 59)",
+                "borderColor": "rgb(101, 59, 59)"
+            }
+        }
+    },{
+        "name": "non-breaking space",
+        "enabled": true,
+        "pattern": "\u00a0",
+        "style": {
+            "borderWidth": "0px",
+            "borderRadius": "0px",
+            "borderStyle": "solid",
+            "light": {
+                "backgroundColor": "rgb(160, 88, 6)",
+                "borderColor": "rgb(160, 88, 6)"
+            },
+            "dark": {
+                "backgroundColor": "rgb(223, 175, 143)",
+                "borderColor": "rgb(223, 175, 143)"
             }
         }
     }]
