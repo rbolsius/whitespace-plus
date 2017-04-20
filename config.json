@@ -29,12 +29,12 @@
             "borderRadius": "0px",
             "borderStyle": "solid",
             "light": {
-                "backgroundColor": "rgb(255, 193, 124)",
-                "borderColor": "rgb(255, 193, 124)"
+                "backgroundColor": "rgb(255, 210, 160)",
+                "borderColor": "rgb(255, 210, 160)"
             },
             "dark": {
-                "backgroundColor": "rgb(106, 75, 53)",
-                "borderColor": "rgb(106, 75, 53)"
+                "backgroundColor": "rgb(78, 54, 36)",
+                "borderColor": "rgb(78, 54, 36)"
             }
         }
     },{
